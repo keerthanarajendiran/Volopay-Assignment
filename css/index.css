@@ -1,0 +1,235 @@
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color:#52557e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-sec{
+    display: flex;
+    align-items: center;
+}
+.fa-circle{
+    color:white;    
+}
+.icon1{
+    font-size: 10px;
+    margin-left: 30px;   
+}
+.icon2{
+    font-size: 7px;
+    margin-left: 7px;
+    margin-top: 1px;
+}
+.icon3{
+    font-size: 4px;
+    margin-left: 7px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.header-title{
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+.subscribe-input-box{
+    color: white;
+    padding: 15px;
+    border: none;
+    background-color:#5a5f89;
+    width: 400px;
+}
+.subscribe-input-box:focus{
+    outline: none;
+}
+.subscribe-input-box::placeholder{
+    color: #aaaed7;
+}
+.check-icon-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    background-color: #a88cd9;
+    width: 60px;
+}
+.check-icon{
+    color:white; 
+    font-size: 16px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-wrapper{
+    width: calc( 100% - 200px);
+    padding: 60px 100px;
+    background-color: #3f406c;
+}
+.container-sec{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.column-section{
+    width: calc( 50% - 10px );
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.column-section1{
+    width: calc( 25% - 10px );
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.column-section-spacing{
+    padding: 30px;
+}
+.column-sec-img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+}
+.content{
+    width: calc( 100% - 40px);
+    padding: 20px;
+    background-color:#5a5f89;
+}
+.user-sec{
+    display: flex;
+    align-items: center;
+}
+.icon-dot{
+    font-size: 10px;
+    margin-right: 7px;
+}
+.icon-dot1{
+    font-size: 7px;
+    margin-right: 7px;
+    margin-top: 1px;
+}
+.icon-dot2{
+    font-size: 4px;
+    margin-right: 7px;
+    margin-top: 2px;
+}
+.try-button{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid rgba(170,142,216,255);
+    background-color: rgba(170,142,216,255);
+    border-radius: 5px;
+}
+.try-button:focus{
+    outline: none;
+    box-shadow: none;
+}
+.try-button:hover{
+    background-color: rgba(170,142,216,0.9);
+}
+.user-title{
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: white;
+    margin: 30px 0;
+}
+.content-top-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content-text{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #aaaed7;
+}
+.icon{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.bottom-icon-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    margin: 10px 0;
+    min-height: 62px;
+}
+.content-para{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 200;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 26px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.bottom-icon{
+    font-size: 15px;
+    margin-right: 10px;
+    color: #aaaed7;
+}
+.icon-margin{
+    margin-right:20px ;
+}
+.color1{
+    color: rgb(171, 94, 243) ;
+}
+.color2{
+    color: rgb(223, 223, 100) ;
+}
+.color3{
+    color:rgb(168, 140, 189);
+}
+.color4{
+    color:rgb(216, 130, 176);
+}
+.color5{
+    color:aquamarine ;
+}
+.color6{
+    color: wheat ;
+}
+.color7{
+    color:gainsboro ;
+}
+.color8{
+    color:darkgray ;
+}
+.color9{
+    color:skyblue ;
+}
+
+

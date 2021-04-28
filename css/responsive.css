@@ -1,0 +1,108 @@
+@media only screen and ( max-width:575px ){
+    .subscribe-input-box{
+        width: 165px;
+    }
+    .container-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-wrapper{
+        width: calc( 100% - 80px);
+        padding: 40px 40px;
+    }
+    .column-section {
+        width: calc( 100% - 10px );
+    }
+    .column-section1 {
+        width: calc( 100% - 10px );
+    }
+    .icon1 {
+        margin-left: 20px;
+    }
+    .check-icon-sec{
+        width: 50px;
+    }
+    .content-title{
+        min-height: unset;
+    }
+    .content-para{
+        -webkit-line-clamp: unset;
+        overflow: unset;
+    }
+}
+@media only screen and ( min-width:576px ) and ( max-width:767px ){
+    .subscribe-input-box{
+        width: 200px;
+    }
+    .container-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-wrapper{
+        width: calc( 100% - 120px);
+        padding: 40px 60px;
+    }
+    .column-section {
+        width: calc( 100% - 10px );
+    }
+    .column-section1 {
+        width: calc( 100% - 10px );
+    }
+    .icon1 {
+        margin-left: 15px;
+    }
+    .check-icon-sec{
+        width: 43px;
+    }
+    .content-title{
+        min-height: unset;
+    }
+    .content-para{
+        -webkit-line-clamp: unset;
+        overflow: unset;
+    }
+}
+@media only screen and ( min-width:768px ) and ( max-width:991px ){
+    .subscribe-input-box{
+        width: 280px;
+    }
+    .subscribe-input-box{
+        width: 200px;
+    }
+    .container-sec{
+        display: flex;
+    }
+    .column-section {
+        width: calc( 50% - 10px );
+    }
+    .column-section1 {
+        width: calc( 50% - 10px );
+    }
+    .icon1 {
+        margin-left: 15px;
+    }
+    .check-icon-sec{
+        width: 43px;
+    }
+    .try-button {
+        padding: 15px 5px;
+        width: 150px;
+    }
+    .content-title{
+        min-height: unset;
+    }
+}
+@media only screen and ( min-width:992px ) and ( max-width:1199px ){
+    .container-sec{
+        display: flex;
+    }
+    .column-section {
+        width: calc( 50% - 10px );
+    }
+    .column-section1 {
+        width: calc( 50% - 10px );
+    }
+    .content-title{
+        min-height: unset;
+    }
+}
